@@ -1,0 +1,13 @@
+distance to tss	transcript id	gene id	transcript name	chromosome	start	end	strand	feature type	transcript biotype
+-1598	ensorlt00000038400	sorlg00000022772		12	306	753	-	mRNA	protein_coding
+1677	ensorlt00000024426	sorlg00000019641	prpf4-201	12	5109	31477	+	mRNA	protein_coding
+6108	ensorlt00000037562	sorlg00000019641	prpf4-202	12	9540	36812	+	mRNA	protein_coding
+15223	ensorlt00000042000	sorlg00000029568	ensorle00000263930	12	15692	18655	-	mRNA	protein_coding
+40304	ensorlt00000027997	sorlg00000025165	si:ch211-202f5.2-202	12	34935	43736	-	mRNA	protein_coding
+40650	ensorlt00000046401	sorlg00000025165	si:ch211-202f5.2-201	12	34935	44082	-	mRNA	protein_coding
+49765	ensorlt00000024413	sorlg00000019626	pisd-201	12	43138	53197	-	mRNA	protein_coding
+49765	ensorlt00000024409	sorlg00000019626	pisd-202	12	43757	53197	-	mRNA	protein_coding
+63498	ensorlt00000024385	sorlg00000019608		12	66930	71647	+	mRNA	protein_coding
+63498	ensorlt00000024388	sorlg00000019608		12	66930	71647	+	mRNA	protein_coding
+87068	ensorlt00000029355	sorlg00000030544	ythdc1-202	12	77483	90500	-	mRNA	protein_coding
+99944	ensorlt00000041678	sorlg00000027422	ufc1-201	12	103376	107375	+	mRNA	protein_coding

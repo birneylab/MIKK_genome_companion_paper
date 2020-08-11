@@ -1,0 +1,7 @@
+distance to tss	transcript id	gene id	transcript name	chromosome	start	end	strand	feature type	transcript biotype
+-9010	ensorlt00000024007	sorlg00000019271	snx7-201	20	919156	935939	+	mRNA	protein_coding
+-9974	ensorlt00000043343	sorlg00000023710	ensorle00000277784	20	916169	918192	-	mRNA	protein_coding
+31432	ensorlt00000045541	sorlg00000023191	ensorle00000270805	20	960518	961882	+	mRNA	protein_coding
+68683	ensorlt00000043252	sorlg00000027058	plppr5b-201	20	948526	997769	-	mRNA	protein_coding
+68683	ensorlt00000045102	sorlg00000027058	plppr5b-202	20	958354	997769	-	mRNA	protein_coding
+68683	ensorlt00000032246	sorlg00000027058	plppr5b-203	20	962019	997769	-	mRNA	protein_coding

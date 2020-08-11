@@ -1,0 +1,11 @@
+distance to tss	transcript id	gene id	transcript name	chromosome	start	end	strand	feature type	transcript biotype
+1151	ensorlt00000020901	sorlg00000016707	minar1-201	5	30637255	30641365	-	mRNA	protein_coding
+-4041	ensorlt00000029724	sorlg00000016701		5	30616980	30635269	-	mRNA	protein_coding
+-4041	ensorlt00000032106	sorlg00000016701		5	30624524	30635269	-	mRNA	protein_coding
+-4041	ensorlt00000033631	sorlg00000016701		5	30624524	30635269	-	mRNA	protein_coding
+-4795	ensorlt00000020898	sorlg00000016701		5	30626979	30634515	-	mRNA	protein_coding
+13883	ensorlt00000020907	sorlg00000016712		5	30643458	30654097	-	mRNA	protein_coding
+14698	ensorlt00000020914	sorlg00000016719	evc2-201	5	30654912	30676618	+	mRNA	protein_coding
+14837	ensorlt00000030129	sorlg00000016712		5	30643458	30655051	-	mRNA	protein_coding
+36471	ensorlt00000020919	sorlg00000016724	cytl1-201	5	30676685	30677641	+	mRNA	protein_coding
+45122	ensorlt00000020937	sorlg00000016741	msx1a-201	5	30684174	30685336	-	mRNA	protein_coding

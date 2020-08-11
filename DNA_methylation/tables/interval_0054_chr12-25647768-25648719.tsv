@@ -1,0 +1,11 @@
+distance to tss	transcript id	gene id	transcript name	chromosome	start	end	strand	feature type	transcript biotype
+10411	ensorlt00000017046	sorlg00000013590		12	25645164	25659130	-	mRNA	protein_coding
+23102	ensorlt00000017087	sorlg00000013620	zfand5b-202	12	25669504	25671821	-	mRNA	protein_coding
+28317	ensorlt00000017092	sorlg00000013620	zfand5b-201	12	25665503	25677036	-	mRNA	protein_coding
+28317	ensorlt00000040465	sorlg00000013620	zfand5b-203	12	25665503	25677036	-	mRNA	protein_coding
+31941	ensorlt00000017133	sorlg00000013657	ccnb1-201	12	25680660	25684411	+	mRNA	protein_coding
+31941	ensorlt00000047009	sorlg00000013657	ccnb1-202	12	25680660	25684411	+	mRNA	protein_coding
+32328	ensorlt00000031556	sorlg00000013657	ccnb1-203	12	25681047	25683685	+	mRNA	protein_coding
+60697	ensorlt00000017135	sorlg00000013661	pmchl-201	12	25709006	25709416	-	mRNA	protein_coding
+68114	ensorlt00000017145	sorlg00000013668	spag8-201	12	25716833	25728659	+	mRNA	protein_coding
+-97349	ensorlt00000017020	sorlg00000013570		12	25544562	25550419	-	mRNA	protein_coding

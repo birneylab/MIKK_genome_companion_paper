@@ -1,0 +1,5 @@
+distance to tss	transcript id	gene id	transcript name	chromosome	start	end	strand	feature type	transcript biotype
+-23956	ensorlt00000018097	sorlg00000014444	lrpap1-202	1	34997522	35012816	+	mRNA	protein_coding
+-23956	ensorlt00000029537	sorlg00000014444	lrpap1-201	1	34997522	35012816	+	mRNA	protein_coding
+41126	ensorlt00000032970	sorlg00000030591		1	35015034	35063121	-	mRNA	protein_coding
+97408	ensorlt00000027100	sorlg00000023554		1	35119403	35121086	+	mRNA	protein_coding

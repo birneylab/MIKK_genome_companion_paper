@@ -1,0 +1,10 @@
+distance to tss	transcript id	gene id	transcript name	chromosome	start	end	strand	feature type	transcript biotype
+4297	ensorlt00000032831	sorlg00000006845	dlg4a-204	14	14382556	14417008	+	mRNA	protein_coding
+-11106	ensorlt00000008602	sorlg00000006845	dlg4a-202	14	14366085	14417008	+	mRNA	protein_coding
+-11106	ensorlt00000008605	sorlg00000006845	dlg4a-203	14	14366085	14417008	+	mRNA	protein_coding
+-46272	ensorlt00000035053	sorlg00000006845	dlg4a-201	14	14330919	14430142	+	mRNA	protein_coding
+50866	ensorlt00000030254	sorlg00000006909	ephb4a-201	14	14429125	14482576	+	mRNA	protein_coding
+52070	ensorlt00000033468	sorlg00000006909	ephb4a-203	14	14430329	14482576	+	mRNA	protein_coding
+52070	ensorlt00000041877	sorlg00000006909	ephb4a-202	14	14430329	14482576	+	mRNA	protein_coding
+84173	ensorlt00000008683	sorlg00000006909	ephb4a-204	14	14462432	14480618	+	mRNA	protein_coding
+-85282	ensorlt00000034698	sorlg00000025378	zbtb20-201	14	14285820	14291909	-	mRNA	protein_coding
