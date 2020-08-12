@@ -11,7 +11,7 @@ repo_url: 'https://github.com/birneylab/MIKK_genome_paper_analysis'
 # Navigation menu
 nav:
     - Home: index.md
-    - Analyses
+    - Analyses:
         - Nanopore basecalling and QC: Nanopore_basecalling/index.md
         - Individual MIKK lines hybrid assemblies:  Individual_assemblies/index.md
         - Graph pan-genome assembly:  Graph_assembly/index.md
