@@ -2,20 +2,18 @@
 
 * NanoSnake pipeline
     * Version:
-    * [Configuration files]()
-    * [Run Script]()
+    * [Configuration files](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/code/cluster_config.yaml)
+    * [Run Script](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/code/Run_NanoSnake.sh)
 
 * Extra pycoMeth interactive analysis
-    * [Notebook]()
+    * [Notebook](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/code/Interactive_comp_report.ipynb)
 
 ## Results
 
 * Alignment file
     * Bam file = hosted at ENA
-    * [pycoQC Quality control]()
 
 * Output files generated with pycoMeth
-
-    * [pycoMeth report](https://birneylab.github.io/MIKK_genome_paper_analysis/DNA_methylation/html/pycoMeth_summary_report.html)
-    * [pycometh plots](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/plots)
-    * [pycometh tables](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/tables)
+    * [pycoMeth report](https://birneylab.github.io/MIKK_genome_paper_analysis/DNA_methylation/pycometh_html/pycoMeth_summary_report.html)
+    * [pycometh plots](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/pycometh_plots)
+    * [pycometh tables](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/pycometh_tables)
