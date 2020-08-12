@@ -39,7 +39,7 @@
 * Structural variation Nanopore
 * Large Structural variation from graph
 * DNA methylation analysis
-	* [pycoMeth report](https://github.com/birneylab/MIKK_genome_paper_analysis/blob/master/DNA_methylation/html/pycoMeth_summary_report.html)
+	* [pycoMeth report](https://birneylab.github.io/MIKK_genome_paper_analysis/DNA_methylation/html/pycoMeth_summary_report.html)
 	* [pycometh plots](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/DNA_methylation/plots)
 	* [pycometh tables](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/DNA_methylation/tables)
 * eQTL analysis
