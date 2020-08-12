@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+# Code and final analyses results for the MIKK panel paper
 
-You can use the [editor on GitHub](https://github.com/birneylab/MIKK_genome_paper_analysis/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+*Citation*
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Code
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* Illumina sequencing alignmnent and analysis
+* Homozygosity of the MIKK panel genomes
+* Heterozygosity at the medaka sex determination region
+* Functional impact of variation
+* Population genetics
+* Identity by state analysis
+* Identity by state
+* Repetitive elements
+* Nanopore sequencing alignment and QC
+* Individual MIKK lines hybrid assemblies
+* Graph pan-genome assembly
+* Copy number variation Illumina
+* Structural variation Nanopore
+* Large Structural variation from graph
+* DNA methylation analysis
+* eQTL analysis
 
-```markdown
-Syntax highlighted code block
+## Results
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/birneylab/MIKK_genome_paper_analysis/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* Illumina sequencing alignmnent and analysis
+* Homozygosity of the MIKK panel genomes
+* Heterozygosity at the medaka sex determination region
+* Functional impact of variation
+* Population genetics      
+* Identity by state analysis
+* Identity by state
+* Repetitive elements
+* Nanopore sequencing alignment and QC
+* Individual MIKK lines hybrid assemblies
+* Graph pan-genome assembly
+* Copy number variation	Illumina
+* Structural variation Nanopore
+* Large Structural variation from graph
+* DNA methylation analysis
+	* [pycoMeth report](https://github.com/birneylab/MIKK_genome_paper_analysis/blob/master/DNA_methylation/html/pycoMeth_summary_report.html)
+	* [pycometh plots](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/DNA_methylation/plots)
+	* [pycometh tables](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/DNA_methylation/tables)
+* eQTL analysis
