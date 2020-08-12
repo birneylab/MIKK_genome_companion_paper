@@ -1,0 +1,27 @@
+# Project information
+site_name: 'MIKK Panel Genome analyses'
+site_description: 'Repository containing the code and the final results for the MIKK panel genome analyses'
+site_author: 'Birney Lab'
+site_url: 'https://birneylab.github.io/MIKK_genome_paper_analysis/'
+
+# Repository
+repo_name: ' birneylab/MIKK_genome_paper_analysis '
+repo_url: 'https://github.com/birneylab/MIKK_genome_paper_analysis'
+
+# Navigation menu
+nav:
+    - Home: index.md
+    - Analyses
+        - Nanopore basecalling and QC: Nanopore_basecalling/index.md
+        - Individual MIKK lines hybrid assemblies:  Individual_assemblies/index.md
+        - Graph pan-genome assembly:  Graph_assembly/index.md
+        - Structural variations Nanopore:  Nanopore_SV_analysis/index.md
+        - Large Structural variation from graph:  Nanopore_graph_SV/index.md
+        - DNA methylation analysis:  DNA_methylation/index.md
+        - eQTL analysis:  eQTL/index.md
+    - Licence: licence.md
+    - Citation: citation.md
+
+# Theme customization
+theme:
+    name: 'material'
