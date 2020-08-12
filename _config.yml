@@ -1,1 +1,3 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
+title: MIKK panel genome analyses
+description: Repository containing the code and final results for the MIKK panel genome analyses
