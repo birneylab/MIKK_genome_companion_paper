@@ -15,9 +15,9 @@
 
 * Quast output
     * [HTML report](https://birneylab.github.io/MIKK_genome_paper_analysis/Individual_assemblies/quast/report.html)
-    * [PDF report](https://birneylab.github.io/MIKK_genome_paper_analysis/tree/master/docs/Individual_assemblies/quast/report.pdf)
-    * [TSV report](https://birneylab.github.io/MIKK_genome_paper_analysis/tree/master/docs/Individual_assemblies/quast/report.tsv)
+    * [PDF report](https://github.com/birneylab/MIKK_genome_paper_analysis/blob/master/docs/Individual_assemblies/quast/report.pdf)
+    * [TSV report](https://github.com/birneylab/MIKK_genome_paper_analysis/blob/master/docs/Individual_assemblies/quast/report.tsv)
 
 * Assembly stats
-    * [SVG summary](https://birneylab.github.io/MIKK_genome_paper_analysis/tree/master/docs/Individual_assemblies/plots/assembly_stats.svg)
-    * [TSV summary](https://birneylab.github.io/MIKK_genome_paper_analysis/tree/master/docs/Individual_assemblies/plots/assembly_stats.tsv)
+    * [SVG summary](https://github.com/birneylab/MIKK_genome_paper_analysis/blob/master/docs/Individual_assemblies/plots/assembly_stats.svg)
+    * [TSV summary](https://github.com/birneylab/MIKK_genome_paper_analysis/blob/master/docs/Individual_assemblies/plots/assembly_stats.tsv)
