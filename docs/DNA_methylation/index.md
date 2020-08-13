@@ -1,7 +1,7 @@
 ## Code
 
 * NanoSnake pipeline
-    * Version:
+    * [Version 0.0.3.9](https://github.com/a-slide/NanoSnake/tree/0.0.3.9)
     * [Configuration files](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/code/cluster_config.yaml)
     * [Run Script](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/code/Run_NanoSnake.sh)
 
@@ -11,7 +11,7 @@
 ## Results
 
 * Alignment file
-    * Bam file = hosted at ENA
+    * Bam file: to be hosted at ENA
 
 * Output files generated with pycoMeth
     * [pycoMeth report](https://birneylab.github.io/MIKK_genome_paper_analysis/DNA_methylation/pycometh_html/pycoMeth_summary_report.html)
