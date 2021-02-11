@@ -24,7 +24,3 @@ nav:
 # Theme customization
 theme:
     name: 'material'
-
-# Extra plugins
-plugins:
-    - mknotebooks
