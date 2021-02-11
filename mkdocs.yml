@@ -12,16 +12,19 @@ repo_url: 'https://github.com/birneylab/MIKK_genome_paper_analysis'
 nav:
     - Home: index.md
     - Analyses:
-        - Nanopore basecalling and QC: Nanopore_basecalling/index.md
+        - Nanopore basecalling: Nanopore_basecalling/index.md
         - Individual MIKK lines hybrid assemblies:  Individual_assemblies/index.md
         - Graph pan-genome assembly:  Graph_assembly/index.md
         - Structural variations Nanopore:  Nanopore_SV_analysis/index.md
         - Large Structural variation from graph:  Nanopore_graph_SV/index.md
         - DNA methylation analysis:  DNA_methylation/index.md
-        - eQTL analysis:  eQTL/index.md
     - Licence: licence.md
     - Citation: citation.md
 
 # Theme customization
 theme:
     name: 'material'
+
+# Extra plugins
+plugins:
+    - mknotebooks
