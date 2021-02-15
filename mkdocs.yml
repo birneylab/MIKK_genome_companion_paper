@@ -13,6 +13,7 @@ nav:
     - Home: index.md
     - Analyses:
         - Nanopore basecalling: Nanopore_basecalling/index.md
+        - Nanopore_processing: Nanopore_processing/index.md
         - Individual MIKK lines hybrid assemblies:  Individual_assemblies/index.md
         - Graph pan-genome assembly:  Graph_assembly/index.md
         - Structural variations Nanopore:  Nanopore_SV_analysis/index.md

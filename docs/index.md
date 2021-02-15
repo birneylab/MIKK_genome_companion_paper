@@ -9,6 +9,7 @@
 This repository contains the code and final results for the MIKK panel genome analyses including:
 
 * [Nanopore basecalling](Nanopore_basecalling/index)
+* [Nanopore data processing](Nanopore_processing/index)
 * [Individual MIKK lines hybrid assemblies](Individual_assemblies/index)
 * [Graph pan-genome assembly](Graph_assembly/index)
 * [Structural variations Nanopore](Nanopore_SV_analysis/index)

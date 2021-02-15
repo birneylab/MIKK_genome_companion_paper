@@ -1,10 +1,5 @@
 ## Code
 
-* NanoSnake pipeline
-    * [Version 0.0.3.9](https://github.com/a-slide/NanoSnake/tree/0.0.3.9)
-    * [Configuration files](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/code/cluster_config.yaml)
-    * [Run Script](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/code/Run_NanoSnake.sh)
-
 * Extra pycoMeth interactive analysis
     * [Notebook](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/code/Interactive_comp_report.ipynb)
 
