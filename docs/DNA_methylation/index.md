@@ -1,6 +1,5 @@
 ## Code
 
-
 * [pycoMeth v0.4.25](https://github.com/a-slide/pycoMeth/tree/0.4.25)
 * Methylation analysis: [Notebook](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/code/Interactive_comp_report.html)
 
