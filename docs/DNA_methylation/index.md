@@ -1,14 +1,27 @@
 ## Code
 
-* Extra pycoMeth interactive analysis
-    * [Notebook](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/code/Interactive_comp_report.ipynb)
+
+* [pycoMeth v0.4.25](https://github.com/a-slide/pycoMeth/tree/0.4.25)
+* Methylation analysis: [Notebook](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/code/Interactive_comp_report.html)
 
 ## Results
 
-* Alignment file
-    * Bam file: to be hosted at ENA
+* [pycoMeth report](https://birneylab.github.io/MIKK_genome_paper_analysis/DNA_methylation/results/pycoMeth_html/pycoMeth_summary_report.html)
+* [pycometh plots](https://birneylab.github.io/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/results/pycoMeth_plots)
+* [pycometh tables](https://birneylab.github.io/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/results/pycoMeth_tables)
 
-* Output files generated with pycoMeth
-    * [pycoMeth report](https://birneylab.github.io/MIKK_genome_paper_analysis/DNA_methylation/results/pycometh_html/pycoMeth_summary_report.html)
-    * [pycometh plots](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/results/pycometh_plots)
-    * [pycometh tables](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/results/pycometh_tables)
+### CpG Island count per category
+
+![](https://birneylab.github.io/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/results/pycoMeth_plots/all_catplot.svg)
+
+### Heatmap of significant CpG islands methylation log likelyhood ratio
+
+![](https://birneylab.github.io/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/results/pycoMeth_plots/all_heatmap.svg)
+
+### Distribution of CpG islands log likelyhood ratio per sample
+
+![](https://birneylab.github.io/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/results/pycoMeth_plots/all_ridgeplot.svg)
+
+### Distribution of distances between CpG islands and closest gene TSS
+
+![](https://birneylab.github.io/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/results/pycoMeth_plots/all_tss_dist.svg)

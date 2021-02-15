@@ -1,7 +1,7 @@
 ## Code
 
-* Basecalling and QC
-    * [Notebook](https://birneylab.github.io/MIKK_genome_paper_analysis/Nanopore_basecalling/code/Basecalling)
+
+* Basecalling [Notebook](https://birneylab.github.io/MIKK_genome_paper_analysis/Nanopore_basecalling/code/Basecalling)
 
 ## Data
 

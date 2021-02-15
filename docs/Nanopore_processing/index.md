@@ -8,4 +8,4 @@
 ## Data
 
 * Reference genome and annotations: [Japanese medaka HdrR (ASM223467v1) ensembl release 99](https://www.ensembl.org/Oryzias_latipes/Info/Index)
-* [MultiQC report](https://birneylab.github.io/MIKK_genome_paper_analysis/Nanopore_processing/data/multiqc_report.html)
+* MultiQC analysis: [report](https://birneylab.github.io/MIKK_genome_paper_analysis/Nanopore_processing/data/multiqc_report.html)
