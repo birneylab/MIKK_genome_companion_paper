@@ -12,16 +12,19 @@
 
 ### CpG Island count per category
 
-![](https://birneylab.github.io/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/results/pycoMeth_plots/all_catplot.svg)
+![](https://raw.githubusercontent.com/birneylab/MIKK_genome_paper_analysis/master/docs/DNA_methylation/data/pycoMeth_plots/all_catplot.svg)
+
 
 ### Heatmap of significant CpG islands methylation log likelyhood ratio
 
-![](https://birneylab.github.io/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/results/pycoMeth_plots/all_heatmap.svg)
+![](https://raw.githubusercontent.com/birneylab/MIKK_genome_paper_analysis/master/docs/DNA_methylation/data/pycoMeth_plots/all_heatmap.svg)
+
 
 ### Distribution of CpG islands log likelyhood ratio per sample
 
-![](https://birneylab.github.io/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/results/pycoMeth_plots/all_ridgeplot.svg)
+![](https://raw.githubusercontent.com/birneylab/MIKK_genome_paper_analysis/master/docs/DNA_methylation/data/pycoMeth_plots/all_ridgeplot.svg)
+
 
 ### Distribution of distances between CpG islands and closest gene TSS
 
-![](https://birneylab.github.io/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/results/pycoMeth_plots/all_tss_dist.svg)
+![](https://raw.githubusercontent.com/birneylab/MIKK_genome_paper_analysis/master/docs/DNA_methylation/data/pycoMeth_plots/all_tss_dist.svg)
