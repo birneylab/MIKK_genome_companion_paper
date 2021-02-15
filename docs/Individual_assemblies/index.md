@@ -1,26 +1,42 @@
 ## Code
 
-* Genome Assembly
-    * Canu assembly
-        * SCRIPTS ?
-        * CONFIGURATION FILES ?
-    * Pilon polishing
-        * [Rscript](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/Individual_assemblies/code/run_iterative_pilon.R)
-        * [Sample_sheet](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/Individual_assemblies/code/sample_file_list.txt)
+* wtdbg2 assembly
+    * SCRIPTS ?
+    * CONFIGURATION FILES ?
+
+* Pilon polishing
+    * SCRIPTS ?
+    * CONFIGURATION FILES ?
 
 * Assembly QC and cleanup
-    * [Notebook](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/Individual_assemblies/code/individual_assembly_QC_cleanup.ipynb)
+    * [Notebook](https://birneylab.github.io/MIKK_genome_paper_analysis/Individual_assemblies/code/individual_assembly_QC_cleanup.html)
 
 ## Data
 
-* Assembly reference
-    * Fastq file: to be hosted at ENA
+### Raw reads at ENA
 
-* Quast output
-    * [HTML report](https://birneylab.github.io/MIKK_genome_paper_analysis/Individual_assemblies/data/quast/report.html)
-    * [PDF report](https://github.com/birneylab/MIKK_genome_paper_analysis/blob/master/docs/Individual_assemblies/data/quast/report.pdf)
-    * [TSV report](https://github.com/birneylab/MIKK_genome_paper_analysis/blob/master/docs/Individual_assemblies/data/quast/report.tsv)
+* [PRJEB43089 study](https://www.ebi.ac.uk/ena/browser/view/PRJEB43089)
 
-* Assembly stats
-    * [SVG summary](https://github.com/birneylab/MIKK_genome_paper_analysis/blob/master/docs/Individual_assemblies/data/plots/assembly_stats.svg)
-    * [TSV summary](https://github.com/birneylab/MIKK_genome_paper_analysis/blob/master/docs/Individual_assemblies/data/plots/assembly_stats.tsv)
+* [MIKK_117-2_draft_assembly](https://www.ebi.ac.uk/ena/browser/view/XXXXXXXXXXXX)
+* [MIKK_131-1_draft_assembly](https://www.ebi.ac.uk/ena/browser/view/XXXXXXXXXXXX)
+* [MIKK_134-1_draft_assembly](https://www.ebi.ac.uk/ena/browser/view/XXXXXXXXXXXX)
+* [MIKK_134-2_draft_assembly](https://www.ebi.ac.uk/ena/browser/view/XXXXXXXXXXXX)
+* [MIKK_4-1_draft_assembly](https://www.ebi.ac.uk/ena/browser/view/XXXXXXXXXXXX)
+* [MIKK_4-2_draft_assembly](https://www.ebi.ac.uk/ena/browser/view/XXXXXXXXXXXX)
+* [MIKK_7-1_draft_assembly](https://www.ebi.ac.uk/ena/browser/view/XXXXXXXXXXXX)
+* [MIKK_7-2_draft_assembly](https://www.ebi.ac.uk/ena/browser/view/XXXXXXXXXXXX)
+* [MIKK_11-1_draft_assembly](https://www.ebi.ac.uk/ena/browser/view/XXXXXXXXXXXX)
+* [MIKK_69-1_draft_assembly](https://www.ebi.ac.uk/ena/browser/view/XXXXXXXXXXXX)
+* [MIKK_79-2_draft_assembly](https://www.ebi.ac.uk/ena/browser/view/XXXXXXXXXXXX)
+* [MIKK_80-1_draft_assembly](https://www.ebi.ac.uk/ena/browser/view/XXXXXXXXXXXX)
+
+
+### Assembly Quality control
+
+* [HTML report](https://birneylab.github.io/MIKK_genome_paper_analysis/Individual_assemblies/data/quast/report.html)
+* [PDF report](https://birneylab.github.io/MIKK_genome_paper_analysis/Individual_assemblies/data/quast/report.pdf)
+* [TSV report](https://birneylab.github.io/MIKK_genome_paper_analysis/Individual_assemblies/data/quast/report.tsv)
+* [SVG summary](https://birneylab.github.io/MIKK_genome_paper_analysis/Individual_assemblies/data/plots/assembly_stats.svg)
+* [TSV summary](https://birneylab.github.io/MIKK_genome_paper_analysis/Individual_assemblies/data/plots/assembly_stats.tsv)
+
+![](https://github.com/birneylab/MIKK_genome_paper_analysis/blob/master/docs/Individual_assemblies/data/plots/assembly_stats.svg)
