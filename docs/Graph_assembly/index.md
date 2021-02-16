@@ -1,16 +1,20 @@
 ## Code
 
-* Graph assembly, alignment and analysis
-    * [Notebook](Graph_assembly/code/graph_assembly_analysis)
+* [minigraph v0.10](https://github.com/lh3/minigraph/releases/tag/v0.10)
+* Graph assembly analysis: [Notebook](https://birneylab.github.io/MIKK_genome_paper_analysis/Graph_assembly/code/graph_assembly_analysis.html)
 
 ## Data
 
-* Output Files
-    * Pan-genome graph assembly: to be hosted at ENA (or something else)
-    * Graph alignment files: to be hosted at ENA (or something else)
+* Pan-genome graph assembly: to be hosted at ENA (or something else)
 
-* Statistics plots and tables
-    * [Graph assembly stats](docs/Graph_assembly/data/graph_stats)
-    * [Raw reads alignments stats](docs/Graph_assembly/data/raw_reads_alignments_stats)
-    * [Assemblies alignments stats](docs/Graph_assembly/data/assemblies_alignments_stats)
-    * [RNA-seq alignments stats](docs/Graph_assembly/data/rna_seq_alignments_stats)
+### Graph segments count statistics per reference of origin
+
+![](https://raw.githubusercontent.com/birneylab/MIKK_genome_paper_analysis/master/docs/Graph_assembly/data/segment_type_stats.svg)
+
+### Graph components (chromosome groups) Statistics
+
+![](https://raw.githubusercontent.com/birneylab/MIKK_genome_paper_analysis/master/docs/Graph_assembly/data/component_stats.svg)
+
+### Graph segments identity and length per reference of origin
+
+![](https://raw.githubusercontent.com/birneylab/MIKK_genome_paper_analysis/master/docs/Graph_assembly/data/identity_len_stats.svg)
