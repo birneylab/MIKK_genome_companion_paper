@@ -7,9 +7,9 @@
 
 ### Alternative divergent paths
 
-[All plots and tables](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/Graph_SV/data/insertion)
+[All plots and tables](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/Graph_SV/data/insertions)
 
-![](https://raw.githubusercontent.com/birneylab/MIKK_genome_paper_analysis/master/docs/Graph_SV/data/insertion/Divergent_paths.svg)
+![](https://raw.githubusercontent.com/birneylab/MIKK_genome_paper_analysis/master/docs/Graph_SV/data/insertions/Divergent_paths.svg)
 
 
 ### Large scale deletions
