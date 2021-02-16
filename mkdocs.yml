@@ -11,14 +11,14 @@ repo_url: 'https://github.com/birneylab/MIKK_genome_paper_analysis'
 # Navigation menu
 nav:
     - Home: index.md
-    - Analyses:
-        - Nanopore basecalling: Nanopore_basecalling/index.md
-        - Nanopore data processing: Nanopore_processing/index.md
-        - Individual MIKK lines hybrid assemblies:  Individual_assemblies/index.md
-        - Graph pan-genome assembly:  Graph_assembly/index.md
-        - Structural variations Nanopore:  Nanopore_SV_analysis/index.md
-        - Large Structural variation from graph:  Nanopore_graph_SV/index.md
-        - DNA methylation analysis:  DNA_methylation/index.md
+    - Nanopore basecalling: Nanopore_basecalling/index.md
+    - Nanopore data processing: Nanopore_processing/index.md
+    - Structural variations Nanopore: Nanopore_SV_analysis/index.md
+    - DNA methylation analysis: DNA_methylation/index.md
+    - Individual MIKK lines hybrid assemblies: Individual_assemblies/index.md
+    - Pangenome graph assembly: Graph_assembly/index.md
+    - Pangenome graph usage: Graph_usage/index.md
+    - Pangenome graph SV analysis: Graph_SV/index.md
     - Licence: licence.md
     - Citation: citation.md
 
