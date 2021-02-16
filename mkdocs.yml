@@ -17,7 +17,7 @@ nav:
     - DNA methylation analysis: DNA_methylation/index.md
     - Individual MIKK lines hybrid assemblies: Individual_assemblies/index.md
     - Pangenome graph assembly: Graph_assembly/index.md
-    - Pangenome graph usage: Graph_usage/index.md
+    - Pangenome graph usage analysis: Graph_usage/index.md
     - Pangenome graph SV analysis: Graph_SV/index.md
     - Licence: licence.md
     - Citation: citation.md
