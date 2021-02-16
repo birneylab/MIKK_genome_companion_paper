@@ -8,8 +8,7 @@
     * SCRIPTS ?
     * CONFIGURATION FILES ?
 
-* Assembly QC and cleanup
-    * [Notebook](https://birneylab.github.io/MIKK_genome_paper_analysis/Individual_assemblies/code/individual_assembly_QC_cleanup.html)
+* Assembly QC [Notebook](https://birneylab.github.io/MIKK_genome_paper_analysis/Individual_assemblies/code/individual_assembly_QC_cleanup.html)
 
 ## Data
 

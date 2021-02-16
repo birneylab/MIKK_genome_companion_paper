@@ -1,7 +1,7 @@
 ## Code
 
 * [minigraph v0.10](https://github.com/lh3/minigraph/releases/tag/v0.10)
-* Graph assembly analysis: [Notebook](https://birneylab.github.io/MIKK_genome_paper_analysis/Graph_usage/code/graph_usage_analysis.html)
+* Graph usage analysis [Notebook](https://birneylab.github.io/MIKK_genome_paper_analysis/Graph_usage/code/graph_usage_analysis.html)
 
 ## Data
 

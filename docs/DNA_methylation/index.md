@@ -3,7 +3,7 @@
 * [pycoMeth v0.4.25](https://github.com/a-slide/pycoMeth/tree/0.4.25)
 * Methylation analysis: [Notebook](https://github.com/birneylab/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/code/Interactive_comp_report.html)
 
-## Results
+## Data
 
 * [pycoMeth report](https://birneylab.github.io/MIKK_genome_paper_analysis/DNA_methylation/results/pycoMeth_html/pycoMeth_summary_report.html)
 * [pycometh plots](https://birneylab.github.io/MIKK_genome_paper_analysis/tree/master/docs/DNA_methylation/results/pycoMeth_plots)
