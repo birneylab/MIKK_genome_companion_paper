@@ -17,15 +17,15 @@ Oryzias latipes (medaka) has the highly attractive property that it can be routi
 
 This repository contains the code and final results for the MIKK panel genome analyses including:
 
-* [Nanopore basecalling](Nanopore_basecalling/index)
-* [Nanopore data processing](Nanopore_processing/index)
-* [Structural variations Nanopore](Nanopore_SV_analysis/index)
-* [DNA methylation analysis](DNA_methylation/index)
-* [Individual MIKK lines hybrid assemblies](Individual_assemblies/index)
-* [Pangenome graph assembly](Graph_assembly/index)
-* [Pangenome graph usage analysis](Graph_usage/index)
-* [Pangenome graph SV analysis](Graph_SV/index)
+* [Nanopore basecalling](https://birneylab.github.io/MIKK_genome_companion_paper/Nanopore_basecalling)
+* [Nanopore data processing](https://birneylab.github.io/MIKK_genome_companion_paper/Nanopore_processing)
+* [Structural variations Nanopore](https://birneylab.github.io/MIKK_genome_companion_paper/Nanopore_SV_analysis)
+* [DNA methylation analysis](https://birneylab.github.io/MIKK_genome_companion_paper/DNA_methylation)
+* [Individual MIKK lines hybrid assemblies](https://birneylab.github.io/MIKK_genome_companion_paper/Individual_assemblies)
+* [Pangenome graph assembly](https://birneylab.github.io/MIKK_genome_companion_paper/Graph_assembly)
+* [Pangenome graph usage analysis](https://birneylab.github.io/MIKK_genome_companion_paper/Graph_usage)
+* [Pangenome graph SV analysis](https://birneylab.github.io/MIKK_genome_companion_paper/Graph_SV)
 
 ### Citation
 
-**Genomic variations and epigenomic landscape of the MIKK panel**, Adrien Leger*, Ian Brettell*, Jack Monahan*, Bettina Welz, Carl Bartonl, Cathrin Herder, Clara Becker, Colin Lischik, Erika Tsingos, Eva Hasel, Jakob Gierten, Katharina Lust, Nadia Khoudja, Narendar Aadepu, Omar T. Hammouda, Philip Watson, Thomas Thumberger, Tinatini Tavhelidse, Kiyoshi Naruse, Felix Loosli, Joachim Wittbrodt, Ewan Birney, Tomas Fitzgerald†
+**Genomic variations and epigenomic landscape of the MIKK panel**, Adrien Leger*, Ian Brettell*, Jack Monahan*, Bettina Welz, Carl Barton, Cathrin Herder, Clara Becker, Colin Lischik, Erika Tsingos, Eva Hasel, Jakob Gierten, Katharina Lust, Nadia Khoudja, Narendar Aadepu, Omar T. Hammouda, Philip Watson, Thomas Thumberger, Tinatini Tavhelidse, Kiyoshi Naruse, Felix Loosli, Joachim Wittbrodt, Ewan Birney, Tomas Fitzgerald†
