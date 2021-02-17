@@ -1,11 +1,11 @@
 ## Code
 
 * [Guppy v4.0.14 (Oxford Nanopore)](https://community.nanoporetech.com/posts/guppy-v4-0-14-patch-releas)
-* Basecalling analysis: [Notebook](https://birneylab.github.io/MIKK_genome_paper_analysis/Nanopore_basecalling/code/Basecalling)
+* Basecalling analysis: [Notebook](https://birneylab.github.io/MIKK_genome_companion_paper/Nanopore_basecalling/code/Basecalling)
 
 ## Data
 
-* [Sample Sheet](https://birneylab.github.io/MIKK_genome_paper_analysis/Nanopore_basecalling/results/sample_sheet.tsv)
+* [Sample Sheet](https://birneylab.github.io/MIKK_genome_companion_paper/Nanopore_basecalling/results/sample_sheet.tsv)
 
 ### Raw reads at ENA
 

@@ -1,4 +1,4 @@
-![Publish docs via GitHub Pages](https://github.com/birneylab/MIKK_genome_paper_analysis/workflows/Publish%20docs%20via%20GitHub%20Pages/badge.svg)
+![Publish docs via GitHub Pages](https://github.com/birneylab/MIKK_genome_companion_paper/workflows/Publish%20docs%20via%20GitHub%20Pages/badge.svg)
 
 
 ---

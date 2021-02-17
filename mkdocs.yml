@@ -2,11 +2,11 @@
 site_name: 'MIKK Panel Genome analyses'
 site_description: 'Repository containing the code and the final results for the MIKK panel genome analyses'
 site_author: 'Birney Lab'
-site_url: 'https://birneylab.github.io/MIKK_genome_paper_analysis/'
+site_url: 'https://birneylab.github.io/MIKK_genome_companion_paper/'
 
 # Repository
-repo_name: ' birneylab/MIKK_genome_paper_analysis '
-repo_url: 'https://github.com/birneylab/MIKK_genome_paper_analysis'
+repo_name: ' birneylab/MIKK_genome_companion_paper '
+repo_url: 'https://github.com/birneylab/MIKK_genome_companion_paper'
 
 # Navigation menu
 nav:

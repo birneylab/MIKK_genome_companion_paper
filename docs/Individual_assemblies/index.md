@@ -8,7 +8,7 @@
     * SCRIPTS ?
     * CONFIGURATION FILES ?
 
-* Assembly QC [Notebook](https://birneylab.github.io/MIKK_genome_paper_analysis/Individual_assemblies/code/individual_assembly_QC_cleanup.html)
+* Assembly QC [Notebook](https://birneylab.github.io/MIKK_genome_companion_paper/Individual_assemblies/code/individual_assembly_QC_cleanup.html)
 
 ## Data
 
@@ -31,10 +31,10 @@
 
 ### Assembly Quality control
 
-* [HTML report](https://birneylab.github.io/MIKK_genome_paper_analysis/Individual_assemblies/data/quast/report.html)
-* [PDF report](https://birneylab.github.io/MIKK_genome_paper_analysis/Individual_assemblies/data/quast/report.pdf)
-* [TSV report](https://birneylab.github.io/MIKK_genome_paper_analysis/Individual_assemblies/data/quast/report.tsv)
-* [SVG summary](https://birneylab.github.io/MIKK_genome_paper_analysis/Individual_assemblies/data/plots/assembly_stats.svg)
-* [TSV summary](https://birneylab.github.io/MIKK_genome_paper_analysis/Individual_assemblies/data/plots/assembly_stats.tsv)
+* [HTML report](https://birneylab.github.io/MIKK_genome_companion_paper/Individual_assemblies/data/quast/report.html)
+* [PDF report](https://birneylab.github.io/MIKK_genome_companion_paper/Individual_assemblies/data/quast/report.pdf)
+* [TSV report](https://birneylab.github.io/MIKK_genome_companion_paper/Individual_assemblies/data/quast/report.tsv)
+* [SVG summary](https://birneylab.github.io/MIKK_genome_companion_paper/Individual_assemblies/data/plots/assembly_stats.svg)
+* [TSV summary](https://birneylab.github.io/MIKK_genome_companion_paper/Individual_assemblies/data/plots/assembly_stats.tsv)
 
-![](https://raw.githubusercontent.com/birneylab/MIKK_genome_paper_analysis/master/docs/Individual_assemblies/data/plots/assembly_stats.svg)
+![](https://raw.githubusercontent.com/birneylab/MIKK_genome_companion_paper/master/docs/Individual_assemblies/data/plots/assembly_stats.svg)
