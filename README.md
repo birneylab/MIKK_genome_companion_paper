@@ -28,4 +28,4 @@ This repository contains the code and final results for the MIKK panel genome an
 
 ### Citation
 
-**Genomic variations and epigenomic landscape of the MIKK panel**, Adrien Leger*, Ian Brettell*, Jack Monahan*, Bettina Welz, Carl Barton, Cathrin Herder, Clara Becker, Colin Lischik, Erika Tsingos, Eva Hasel, Jakob Gierten, Katharina Lust, Nadia Khoudja, Narendar Aadepu, Omar T. Hammouda, Philip Watson, Thomas Thumberger, Tinatini Tavhelidse, Kiyoshi Naruse, Felix Loosli, Joachim Wittbrodt, Ewan Birney, Tomas Fitzgerald†
+**Genomic variations and epigenomic landscape of the MIKK panel**, Adrien Leger#, Ian Brettell#, Jack Monahan#, Bettina Welz, Carl Barton, Cathrin Herder, Clara Becker, Colin Lischik, Erika Tsingos, Eva Hasel, Jakob Gierten, Katharina Lust, Nadia Khoudja, Narendar Aadepu, Omar T. Hammouda, Philip Watson, Thomas Thumberger, Tinatini Tavhelidse, Kiyoshi Naruse, Felix Loosli, Joachim Wittbrodt, Ewan Birney, Tomas Fitzgerald†
