@@ -20,7 +20,6 @@ nav:
     - Pangenome graph usage analysis: Graph_usage/index.md
     - Pangenome graph SV analysis: Graph_SV/index.md
     - Licence: licence.md
-    - Citation: citation.md
 
 # Theme customization
 theme:
