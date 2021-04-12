@@ -104,3 +104,4 @@ ENV/
 # data
 tests/
 docs/*/large_data/
+.Rproj.user
