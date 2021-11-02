@@ -36,5 +36,8 @@
 * [TSV report](https://birneylab.github.io/MIKK_genome_companion_paper/Individual_assemblies/data/quast/report.tsv)
 * [SVG summary](https://birneylab.github.io/MIKK_genome_companion_paper/Individual_assemblies/data/plots/assembly_stats.svg)
 * [TSV summary](https://birneylab.github.io/MIKK_genome_companion_paper/Individual_assemblies/data/plots/assembly_stats.tsv)
+* [Busco reports](https://github.com/birneylab/MIKK_genome_companion_paper/tree/master/docs/Individual_assemblies/data/busco)
+* [Merqury completeness stats](https://birneylab.github.io/MIKK_genome_companion_paper/Individual_assemblies/data/merqury/merqury.completeness.stats)
+* [Merqury QV](https://birneylab.github.io/MIKK_genome_companion_paper/Individual_assemblies/data/mercury/merqury_qv.txt)
 
 ![](https://raw.githubusercontent.com/birneylab/MIKK_genome_companion_paper/master/docs/Individual_assemblies/data/plots/assembly_stats.svg)
