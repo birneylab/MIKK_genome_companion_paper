@@ -1,0 +1,19 @@
+# BUSCO version is: 5.2.2 
+# The lineage dataset is: actinopterygii_odb10 (Creation date: 2021-02-19, number of genomes: 26, number of BUSCOs: 3640)
+# Summarized benchmarking in BUSCO notation for file /hps/research1/birney/users/tomas/medaka/busco/assemblies/4-2_B2_clean.fa
+# BUSCO was run in mode: genome
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:61.2%[S:60.9%,D:0.3%],F:5.1%,M:33.7%,n:3640	   
+	2226	Complete BUSCOs (C)			   
+	2216	Complete and single-copy BUSCOs (S)	   
+	10	Complete and duplicated BUSCOs (D)	   
+	187	Fragmented BUSCOs (F)			   
+	1227	Missing BUSCOs (M)			   
+	3640	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.3
+	metaeuk: 5.34c21f2

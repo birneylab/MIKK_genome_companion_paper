@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+
+        <title>PycoMeth report</title>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <style>
+            .tf {
+                position: fixed;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+            z-index: 99 !important;
+            }
+        </style>
+    </head>
+        <body>
+
+    <div class="container">
+        <div class="columns">
+            <div class="column col-12 col-mx-auto tf">
+                <header class="navbar">
+                    <section class="navbar-section">
+                        <div>
+                            <a href="https://a-slide.github.io/pycoMeth/" class="navbar-brand mr-2" target="_blank">PycoMeth</a>
+                        <div/>
+                        <div>
+                            <a href="https://a-slide.github.io/pycoMeth/" class="btn btn-link" target="_blank">Documentation</a>
+                        <div/>
+                        <div>
+                            <a href="https://github.com/a-slide/pycoMeth" class="btn btn-link" target="_blank">GitHub</a>
+                        <div/>
+                    </section>
+                    <section class="navbar-section">
+                        <div>
+                            <button class="btn btn-link" onclick="location.href='../pycoMeth_summary_report.html'">
+                                <i class="icon icon-arrow-up"></i> Intervals Summary
+                            </button>
+                        <div/>
+                        <div>
+                            <button class="btn btn-link" onclick="location.href='interval_0084_chr14-5903721-5904512.html'">
+                                <i class="icon icon-arrow-left"></i> Previous Interval
+                            </button>
+                        <div/>
+                        <div>
+                            <button class="btn btn-link" onclick="location.href='interval_0086_chr4-4090296-4091243.html'">
+                                <i class="icon icon-arrow-right"></i> Next Interval
+                            </button>
+                        <div/>
+                    </section>
+                </header>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column col-9 col-mx-auto">
+                <div class="text-center">
+                    <br>
+                    <img src=https://raw.githubusercontent.com/a-slide/pycoMeth/master/docs/pictures/pycoMeth_long.png class="center" alt="" style="max-height: 80px;">
+                    <div class="divider"></div>
+                    <h4>CpG interval report generated on 07/08/20 with pycoMeth 0.4.16</h4>
+                    <div class="divider"></div>
+                </div>
+                <div class="columns">
+                    <div id="Interval_details" class="column col-11 col-mx-auto">
+                        <h5 style="margin-top: 50px;">Interval details</h5>
+                        <table border="0" class="dataframe table table-striped table-hover table-scroll">
+  <thead>
+    <tr style="text-align: justify-all;">
+      <th>pvalue rank</th>
+      <th>chromosome</th>
+      <th>start</th>
+      <th>end</th>
+      <th>length</th>
+      <th>number of samples</th>
+      <th>number of CpGs</th>
+      <th>adjusted pvalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>#85</td>
+      <td>22</td>
+      <td>1397307</td>
+      <td>1398265</td>
+      <td>958</td>
+      <td>12</td>
+      <td>28</td>
+      <td>4.2291e-25</td>
+    </tr>
+  </tbody>
+</table>
+                        <div class="divider"></div>
+                    </div>
+                    <div id="CpG_heatmap" class="column col-11 col-mx-auto">
+                        <h5 style="margin-top: 50px;">Methylation log-likelihood ratio by CpG position</h5>
+                        <div>
+        
+        
+            <div id="668e47f0-f165-49ff-9f45-f42fc7660036" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+            <script type="text/javascript">
+                
+                    window.PLOTLYENV=window.PLOTLYENV || {};
+                    
+                if (document.getElementById("668e47f0-f165-49ff-9f45-f42fc7660036")) {
+                    Plotly.newPlot(
+                        '668e47f0-f165-49ff-9f45-f42fc7660036',
+                        [{"hoverinfo": "text", "marker": {"color": "grey"}, "mode": "lines", "type": "scatter", "x": [0.0, 13.866720051980568, 13.866720051980568, 0.0], "xaxis": "x2", "y": [-5.0, -5.0, -15.0, -15.0], "yaxis": "y2"}, {"hoverinfo": "text", "marker": {"color": "grey"}, "mode": "lines", "type": "scatter", "x": [0.0, 7.434640206492847, 7.434640206492847, 0.0], "xaxis": "x2", "y": [-35.0, -35.0, -45.0, -45.0], "yaxis": "y2"}, {"hoverinfo": "text", "marker": {"color": "grey"}, "mode": "lines", "type": "scatter", "x": [0.0, 13.179260222030676, 13.179260222030676, 7.434640206492847], "xaxis": "x2", "y": [-25.0, -25.0, -40.0, -40.0], "yaxis": "y2"}, {"hoverinfo": "text", "marker": {"color": "grey"}, "mode": "lines", "type": "scatter", "x": [0.0, 8.887299927424527, 8.887299927424527, 0.0], "xaxis": "x2", "y": [-55.0, -55.0, -65.0, -65.0], "yaxis": "y2"}, {"hoverinfo": "text", "marker": {"color": "grey"}, "mode": "lines", "type": "scatter", "x": [0.0, 6.651539295531524, 6.651539295531524, 0.0], "xaxis": "x2", "y": [-75.0, -75.0, -85.0, -85.0], "yaxis": "y2"}, {"hoverinfo": "text", "marker": {"color": "grey"}, "mode": "lines", "type": "scatter", "x": [0.0, 8.403475471493923, 8.403475471493923, 0.0], "xaxis": "x2", "y": [-105.0, -105.0, -115.0, -115.0], "yaxis": "y2"}, {"hoverinfo": "text", "marker": {"color": "grey"}, "mode": "lines", "type": "scatter", "x": [0.0, 11.105306164172152, 11.105306164172152, 8.403475471493923], "xaxis": "x2", "y": [-95.0, -95.0, -110.0, -110.0], "yaxis": "y2"}, {"hoverinfo": "text", "marker": {"color": "grey"}, "mode": "lines", "type": "scatter", "x": [6.651539295531524, 11.52180324428429, 11.52180324428429, 11.105306164172152], "xaxis": "x2", "y": [-80.0, -80.0, -102.5, -102.5], "yaxis": "y2"}, {"hoverinfo": "text", "marker": {"color": "grey"}, "mode": "lines", "type": "scatter", "x": [8.887299927424527, 15.236458742109335, 15.236458742109335, 11.52180324428429], "xaxis": "x2", "y": [-60.0, -60.0, -91.25, -91.25], "yaxis": "y2"}, {"hoverinfo": "text", "marker": {"color": "grey"}, "mode": "lines", "type": "scatter", "x": [13.179260222030676, 25.4421702101059, 25.4421702101059, 15.236458742109335], "xaxis": "x2", "y": [-32.5, -32.5, -75.625, -75.625], "yaxis": "y2"}, {"hoverinfo": "text", "marker": {"color": "grey"}, "mode": "lines", "type": "scatter", "x": [13.866720051980568, 57.11000547189608, 57.11000547189608, 25.4421702101059], "xaxis": "x2", "y": [-10.0, -10.0, -54.0625, -54.0625], "yaxis": "y2"}, {"colorbar": {"title": {"text": "Median LLR"}}, "colorscale": [[0.0, "rgb(33,102,172)"], [0.45, "rgb(240,240,240)"], [0.55, "rgb(240,240,240)"], [1.0, "rgb(215,48,39)"]], "name": "heatmap", "type": "heatmap", "x": ["22-1,397,380", "22-1,397,425", "22-1,397,463", "22-1,397,498", "22-1,397,535", "22-1,397,554", "22-1,397,567", "22-1,397,604", "22-1,397,641", "22-1,397,663", "22-1,397,687", "22-1,397,706", "22-1,397,730", "22-1,397,759", "22-1,397,812", "22-1,397,844", "22-1,397,878", "22-1,397,901", "22-1,397,928", "22-1,397,966", "22-1,398,011", "22-1,398,038", "22-1,398,054", "22-1,398,065", "22-1,398,095", "22-1,398,107", "22-1,398,196", "22-1,398,246"], "xaxis": "x", "y": ["Sample 80-1_H3", "Sample 7-2_F2", "Sample 7-1_E2", "Sample 134-2_A5", "Sample 11-1_A3", "Sample 79-2_G3", "Sample 117-2_C4", "Sample 4-1_B2", "Sample 134-1_H4", "Sample 69-1_F3", "Sample 4-2_B2", "Sample 131-1_F4"], "yaxis": "y", "z": [[0.525, 3.245, 1.445, 10.63, 1.62, 1.5, 0.185, 1.515, 1.46, 7.03, 1.55, 3.95, -0.34, 7.42, 10.7, 3.51, 2.7, 0.105, 1.86, -1.115, 2.335, 1.975, 1.635, 0.785, 0.66, 1.87, -0.19, -3.09], [-0.21, 1.17, 0.76, 11.95, 2.14, 0.7, 1.3, -0.56, 0.77, 5.15, 1.16, 5.18, 0.86, 7.9, 5.7, 3.28, 3.15, 0.71, -1.245, -1.26, 1.6, 0.96, 2.47, 0.46, 2.39, 4.71, -0.2, -2.07], [0.425, 2.72, 1.25, 12.81, 7.685, 3.12, 1.07, 0.275, 4.42, 8.85, 2.5, 6.46, 1.3, 4.18, 7.815, 5.685, 0.685, 0.13, 1.07, -0.825, 4.39, 2.525, 2.085, 2.04, 3.065, 3.255, -0.02, -1.975], [0.52, 2.345, 1.755, 11.79, 6.425, 0.92, -1.175, -0.09, 5.45, 6.4, 2.17, 2.26, 0.28, 6.8, 7.31, 5.51, 1.995, 1.605, 1.875, 0.42, 3.455, -0.72, 1.25, 1.87, 3.08, 2.98, 0.565, 0.5], [-0.02, 2.52, 0.29, 9.34, 5.01, 2.38, -0.11, -0.22, 4.335, 4.04, 3.28, 1.595, 0.42, 9.19, 8.29, 6.79, 2.91, 1.08, 3.93, 0.81, 3.48, 0.21, 2.91, 1.68, 4.86, 4.06, 0.27, 0.82], [-0.1, 2.72, 1.05, 11.05, 5.32, -0.05, -0.32, -1.11, -0.06, 2.77, 3.32, 2.61, -1.065, 6.06, 10.66, 2.7, 2.08, -0.87, 2.47, -1.16, 1.46, -0.82, 1.41, 0.94, 4.1, 4.64, 0.02, -0.24], [-1.425, 0.985, 1.685, 8.55, 2.19, 1.45, -0.16, -0.16, 0.79, -0.95, 1.735, 5.03, -0.96, 5.97, 11.53, 5.06, 3.645, 2.715, 3.175, -0.57, 3.91, -0.42, 1.07, 1.58, 3.14, 3.99, 0.33, 0.78], [0.14, 1.44, 0.5, 5.4, 1.695, -0.655, -1.505, -0.56, 3.355, 4.57, 0.85, 3.52, -0.31, 2.24, 5.95, 0.625, 1.305, -0.195, 0.535, -1.95, 1.185, -1.15, 1.795, 1.46, 1.465, 1.205, 0.465, -2.1], [-1.525, -0.075, 0.86, 3.145, 0.535, -0.7, -0.275, -0.1, 0.875, 3.26, -0.36, 1.005, -0.285, 0.59, 5.175, 1.48, 1.405, -0.525, -1.17, 0.105, 1.05, -0.36, 1.97, 0.95, 3.25, 3.62, 1.12, -4.24], [-0.335, 1.01, 0.66, 1.94, -3.3, -0.67, -2.47, -1.05, 0.31, -2.97, -0.79, -0.765, -0.935, -0.78, 1.39, 0.17, 0.37, 0.2, -0.58, -0.49, 0.47, -0.86, 1.41, 1.15, -1.31, 1.86, -0.52, -0.33], [-3.53, -3.45, -0.45, -18.04, -5.28, -1.52, -1.46, -2.45, -6.255, -9.465, -1.475, -6.18, -1.52, -4.66, -2.355, -2.565, -1.57, -3.22, -2.92, -1.63, -3.07, -2.14, 0.925, 0.05, -4.83, -2.0, -2.46, -2.55], [-3.87, -3.69, -0.35, -19.82, -7.04, -3.33, -3.7, -2.785, -10.64, -15.8, -2.755, -2.915, -1.085, -5.055, -10.43, -4.895, -4.265, -2.825, -3.85, -2.375, -4.02, -1.535, -0.18, -0.315, -8.33, -4.47, -1.94, -4.72]], "zmax": 10, "zmid": 0, "zmin": -10}],
+                        {"hovermode": "closest", "margin": {"b": 50, "t": 50}, "plot_bgcolor": "rgba(0,0,0,0)", "showlegend": false, "template": {"data": {"bar": [{"error_x": {"color": "#2a3f5f"}, "error_y": {"color": "#2a3f5f"}, "marker": {"line": {"color": "#E5ECF6", "width": 0.5}}, "type": "bar"}], "barpolar": [{"marker": {"line": {"color": "#E5ECF6", "width": 0.5}}, "type": "barpolar"}], "carpet": [{"aaxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "baxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "type": "carpet"}], "choropleth": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "choropleth"}], "contour": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "contour"}], "contourcarpet": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "contourcarpet"}], "heatmap": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "heatmap"}], "heatmapgl": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "heatmapgl"}], "histogram": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "histogram"}], "histogram2d": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "histogram2d"}], "histogram2dcontour": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "histogram2dcontour"}], "mesh3d": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "mesh3d"}], "parcoords": [{"line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "parcoords"}], "pie": [{"automargin": true, "type": "pie"}], "scatter": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatter"}], "scatter3d": [{"line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatter3d"}], "scattercarpet": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattercarpet"}], "scattergeo": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattergeo"}], "scattergl": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattergl"}], "scattermapbox": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattermapbox"}], "scatterpolar": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterpolar"}], "scatterpolargl": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterpolargl"}], "scatterternary": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterternary"}], "surface": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "surface"}], "table": [{"cells": {"fill": {"color": "#EBF0F8"}, "line": {"color": "white"}}, "header": {"fill": {"color": "#C8D4E3"}, "line": {"color": "white"}}, "type": "table"}]}, "layout": {"annotationdefaults": {"arrowcolor": "#2a3f5f", "arrowhead": 0, "arrowwidth": 1}, "coloraxis": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "colorscale": {"diverging": [[0, "#8e0152"], [0.1, "#c51b7d"], [0.2, "#de77ae"], [0.3, "#f1b6da"], [0.4, "#fde0ef"], [0.5, "#f7f7f7"], [0.6, "#e6f5d0"], [0.7, "#b8e186"], [0.8, "#7fbc41"], [0.9, "#4d9221"], [1, "#276419"]], "sequential": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "sequentialminus": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}, "colorway": ["#636efa", "#EF553B", "#00cc96", "#ab63fa", "#FFA15A", "#19d3f3", "#FF6692", "#B6E880", "#FF97FF", "#FECB52"], "font": {"color": "#2a3f5f"}, "geo": {"bgcolor": "white", "lakecolor": "white", "landcolor": "#E5ECF6", "showlakes": true, "showland": true, "subunitcolor": "white"}, "hoverlabel": {"align": "left"}, "hovermode": "closest", "mapbox": {"style": "light"}, "paper_bgcolor": "white", "plot_bgcolor": "#E5ECF6", "polar": {"angularaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "bgcolor": "#E5ECF6", "radialaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "scene": {"xaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}, "yaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}, "zaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}}, "shapedefaults": {"line": {"color": "#2a3f5f"}}, "ternary": {"aaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "baxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "bgcolor": "#E5ECF6", "caxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "title": {"x": 0.05}, "xaxis": {"automargin": true, "gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "zerolinewidth": 2}, "yaxis": {"automargin": true, "gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "zerolinewidth": 2}}}, "xaxis": {"anchor": "y", "domain": [0, 0.95], "fixedrange": false, "showticklabels": false, "title": {"text": "CpG positions"}}, "xaxis2": {"anchor": "y2", "domain": [0.955, 1.0], "fixedrange": true, "showgrid": false, "showline": false, "showticklabels": false, "ticks": "", "zeroline": false}, "yaxis": {"anchor": "x", "automargin": true, "domain": [0.0, 1.0], "fixedrange": true, "ticks": "outside"}, "yaxis2": {"anchor": "x2", "automargin": true, "domain": [0.0, 1.0], "fixedrange": true, "matches": "y", "showgrid": false, "showline": false, "showticklabels": false, "ticks": "", "zeroline": false}},
+                        {"responsive": true}
+                    )
+                };
+                
+            </script>
+        </div>
+                        <div class="divider"></div>
+                    </div>
+                    <div id="CpG_ridgeplot" class="column col-11 col-mx-auto">
+                        <h5 style="margin-top: 50px;">Distribution of CpG methylation log-likelihood ratio by sample</h5>
+                        <div>
+        
+        
+            <div id="d537cfe3-3d0a-4e86-a651-70f37971205d" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+            <script type="text/javascript">
+                
+                    window.PLOTLYENV=window.PLOTLYENV || {};
+                    
+                if (document.getElementById("d537cfe3-3d0a-4e86-a651-70f37971205d")) {
+                    Plotly.newPlot(
+                        'd537cfe3-3d0a-4e86-a651-70f37971205d',
+                        [{"box": {"visible": false, "width": 0.6666666666666666}, "hoveron": "violins", "jitter": 0.2, "line": {"color": "rgb(33.0, 102.0, 172.0)"}, "marker": {"size": 5}, "name": "Sample 131-1_F4", "orientation": "h", "pointpos": 0.2, "points": "all", "side": "positive", "type": "violin", "width": 2, "x": [-3.87, -3.69, -0.35, -19.82, -7.04, -3.33, -3.7, -2.785, -10.64, -15.8, -2.755, -2.915, -1.085, -5.055, -10.43, -4.895, -4.265, -2.825, -3.85, -2.375, -4.02, -1.535, -0.18, -0.315, -8.33, -4.47, -1.94, -4.72]}, {"box": {"visible": false, "width": 0.6666666666666666}, "hoveron": "violins", "jitter": 0.2, "line": {"color": "rgb(49.54545454545455, 97.0909090909091, 159.9090909090909)"}, "marker": {"size": 5}, "name": "Sample 4-2_B2", "orientation": "h", "pointpos": 0.2, "points": "all", "side": "positive", "type": "violin", "width": 2, "x": [-3.53, -3.45, -0.45, -18.04, -5.28, -1.52, -1.46, -2.45, -6.255, -9.465, -1.475, -6.18, -1.52, -4.66, -2.355, -2.565, -1.57, -3.22, -2.92, -1.63, -3.07, -2.14, 0.925, 0.05, -4.83, -2.0, -2.46, -2.55]}, {"box": {"visible": false, "width": 0.6666666666666666}, "hoveron": "violins", "jitter": 0.2, "line": {"color": "rgb(66.0909090909091, 92.18181818181819, 147.8181818181818)"}, "marker": {"size": 5}, "name": "Sample 69-1_F3", "orientation": "h", "pointpos": 0.2, "points": "all", "side": "positive", "type": "violin", "width": 2, "x": [-0.335, 1.01, 0.66, 1.94, -3.3, -0.67, -2.47, -1.05, 0.31, -2.97, -0.79, -0.765, -0.935, -0.78, 1.39, 0.17, 0.37, 0.2, -0.58, -0.49, 0.47, -0.86, 1.41, 1.15, -1.31, 1.86, -0.52, -0.33]}, {"box": {"visible": false, "width": 0.6666666666666666}, "hoveron": "violins", "jitter": 0.2, "line": {"color": "rgb(82.63636363636364, 87.27272727272728, 135.72727272727272)"}, "marker": {"size": 5}, "name": "Sample 134-1_H4", "orientation": "h", "pointpos": 0.2, "points": "all", "side": "positive", "type": "violin", "width": 2, "x": [-1.525, -0.075, 0.86, 3.145, 0.535, -0.7, -0.275, -0.1, 0.875, 3.26, -0.36, 1.005, -0.285, 0.59, 5.175, 1.48, 1.405, -0.525, -1.17, 0.105, 1.05, -0.36, 1.97, 0.95, 3.25, 3.62, 1.12, -4.24]}, {"box": {"visible": false, "width": 0.6666666666666666}, "hoveron": "violins", "jitter": 0.2, "line": {"color": "rgb(99.18181818181819, 82.36363636363636, 123.63636363636363)"}, "marker": {"size": 5}, "name": "Sample 4-1_B2", "orientation": "h", "pointpos": 0.2, "points": "all", "side": "positive", "type": "violin", "width": 2, "x": [0.14, 1.44, 0.5, 5.4, 1.695, -0.655, -1.505, -0.56, 3.355, 4.57, 0.85, 3.52, -0.31, 2.24, 5.95, 0.625, 1.305, -0.195, 0.535, -1.95, 1.185, -1.15, 1.795, 1.46, 1.465, 1.205, 0.465, -2.1]}, {"box": {"visible": false, "width": 0.6666666666666666}, "hoveron": "violins", "jitter": 0.2, "line": {"color": "rgb(115.72727272727273, 77.45454545454545, 111.54545454545453)"}, "marker": {"size": 5}, "name": "Sample 7-2_F2", "orientation": "h", "pointpos": 0.2, "points": "all", "side": "positive", "type": "violin", "width": 2, "x": [-0.21, 1.17, 0.76, 11.95, 2.14, 0.7, 1.3, -0.56, 0.77, 5.15, 1.16, 5.18, 0.86, 7.9, 5.7, 3.28, 3.15, 0.71, -1.245, -1.26, 1.6, 0.96, 2.47, 0.46, 2.39, 4.71, -0.2, -2.07]}, {"box": {"visible": false, "width": 0.6666666666666666}, "hoveron": "violins", "jitter": 0.2, "line": {"color": "rgb(132.27272727272728, 72.54545454545455, 99.45454545454545)"}, "marker": {"size": 5}, "name": "Sample 79-2_G3", "orientation": "h", "pointpos": 0.2, "points": "all", "side": "positive", "type": "violin", "width": 2, "x": [-0.1, 2.72, 1.05, 11.05, 5.32, -0.05, -0.32, -1.11, -0.06, 2.77, 3.32, 2.61, -1.065, 6.06, 10.66, 2.7, 2.08, -0.87, 2.47, -1.16, 1.46, -0.82, 1.41, 0.94, 4.1, 4.64, 0.02, -0.24]}, {"box": {"visible": false, "width": 0.6666666666666666}, "hoveron": "violins", "jitter": 0.2, "line": {"color": "rgb(148.8181818181818, 67.63636363636363, 87.36363636363636)"}, "marker": {"size": 5}, "name": "Sample 80-1_H3", "orientation": "h", "pointpos": 0.2, "points": "all", "side": "positive", "type": "violin", "width": 2, "x": [0.525, 3.245, 1.445, 10.63, 1.62, 1.5, 0.185, 1.515, 1.46, 7.03, 1.55, 3.95, -0.34, 7.42, 10.7, 3.51, 2.7, 0.105, 1.86, -1.115, 2.335, 1.975, 1.635, 0.785, 0.66, 1.87, -0.19, -3.09]}, {"box": {"visible": false, "width": 0.6666666666666666}, "hoveron": "violins", "jitter": 0.2, "line": {"color": "rgb(165.36363636363637, 62.72727272727273, 75.27272727272727)"}, "marker": {"size": 5}, "name": "Sample 117-2_C4", "orientation": "h", "pointpos": 0.2, "points": "all", "side": "positive", "type": "violin", "width": 2, "x": [-1.425, 0.985, 1.685, 8.55, 2.19, 1.45, -0.16, -0.16, 0.79, -0.95, 1.735, 5.03, -0.96, 5.97, 11.53, 5.06, 3.645, 2.715, 3.175, -0.57, 3.91, -0.42, 1.07, 1.58, 3.14, 3.99, 0.33, 0.78]}, {"box": {"visible": false, "width": 0.6666666666666666}, "hoveron": "violins", "jitter": 0.2, "line": {"color": "rgb(181.90909090909093, 57.81818181818182, 63.18181818181817)"}, "marker": {"size": 5}, "name": "Sample 134-2_A5", "orientation": "h", "pointpos": 0.2, "points": "all", "side": "positive", "type": "violin", "width": 2, "x": [0.52, 2.345, 1.755, 11.79, 6.425, 0.92, -1.175, -0.09, 5.45, 6.4, 2.17, 2.26, 0.28, 6.8, 7.31, 5.51, 1.995, 1.605, 1.875, 0.42, 3.455, -0.72, 1.25, 1.87, 3.08, 2.98, 0.565, 0.5]}, {"box": {"visible": false, "width": 0.6666666666666666}, "hoveron": "violins", "jitter": 0.2, "line": {"color": "rgb(198.45454545454547, 52.90909090909091, 51.09090909090908)"}, "marker": {"size": 5}, "name": "Sample 7-1_E2", "orientation": "h", "pointpos": 0.2, "points": "all", "side": "positive", "type": "violin", "width": 2, "x": [0.425, 2.72, 1.25, 12.81, 7.685, 3.12, 1.07, 0.275, 4.42, 8.85, 2.5, 6.46, 1.3, 4.18, 7.815, 5.685, 0.685, 0.13, 1.07, -0.825, 4.39, 2.525, 2.085, 2.04, 3.065, 3.255, -0.02, -1.975]}, {"box": {"visible": false, "width": 0.6666666666666666}, "hoveron": "violins", "jitter": 0.2, "line": {"color": "rgb(215.0, 48.0, 39.0)"}, "marker": {"size": 5}, "name": "Sample 11-1_A3", "orientation": "h", "pointpos": 0.2, "points": "all", "side": "positive", "type": "violin", "width": 2, "x": [-0.02, 2.52, 0.29, 9.34, 5.01, 2.38, -0.11, -0.22, 4.335, 4.04, 3.28, 1.595, 0.42, 9.19, 8.29, 6.79, 2.91, 1.08, 3.93, 0.81, 3.48, 0.21, 2.91, 1.68, 4.86, 4.06, 0.27, 0.82]}],
+                        {"annotations": [{"font": {"color": "rgb(100,100,100)"}, "showarrow": false, "text": "Ambiguous", "x": 0, "xref": "x", "y": 1.06, "yref": "paper"}, {"font": {"color": "rgb(33,102,172)"}, "showarrow": false, "text": "Unmethylated", "x": -10.5, "xref": "x", "y": 1.06, "yref": "paper"}, {"font": {"color": "rgb(215,48,39)"}, "showarrow": false, "text": "Methylated", "x": 7.0, "xref": "x", "y": 1.06, "yref": "paper"}], "hovermode": "closest", "margin": {"b": 50, "t": 50}, "plot_bgcolor": "rgba(0,0,0,0)", "shapes": [{"fillcolor": "rgb(100,100,100)", "layer": "below", "line": {"width": 0}, "opacity": 0.25, "type": "rect", "x0": -1, "x1": 1, "xref": "x", "y0": 0, "y1": 1, "yref": "paper"}], "showlegend": false, "template": {"data": {"bar": [{"error_x": {"color": "#2a3f5f"}, "error_y": {"color": "#2a3f5f"}, "marker": {"line": {"color": "#E5ECF6", "width": 0.5}}, "type": "bar"}], "barpolar": [{"marker": {"line": {"color": "#E5ECF6", "width": 0.5}}, "type": "barpolar"}], "carpet": [{"aaxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "baxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "type": "carpet"}], "choropleth": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "choropleth"}], "contour": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "contour"}], "contourcarpet": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "contourcarpet"}], "heatmap": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "heatmap"}], "heatmapgl": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "heatmapgl"}], "histogram": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "histogram"}], "histogram2d": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "histogram2d"}], "histogram2dcontour": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "histogram2dcontour"}], "mesh3d": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "mesh3d"}], "parcoords": [{"line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "parcoords"}], "pie": [{"automargin": true, "type": "pie"}], "scatter": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatter"}], "scatter3d": [{"line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatter3d"}], "scattercarpet": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattercarpet"}], "scattergeo": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattergeo"}], "scattergl": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattergl"}], "scattermapbox": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattermapbox"}], "scatterpolar": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterpolar"}], "scatterpolargl": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterpolargl"}], "scatterternary": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterternary"}], "surface": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "surface"}], "table": [{"cells": {"fill": {"color": "#EBF0F8"}, "line": {"color": "white"}}, "header": {"fill": {"color": "#C8D4E3"}, "line": {"color": "white"}}, "type": "table"}]}, "layout": {"annotationdefaults": {"arrowcolor": "#2a3f5f", "arrowhead": 0, "arrowwidth": 1}, "coloraxis": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "colorscale": {"diverging": [[0, "#8e0152"], [0.1, "#c51b7d"], [0.2, "#de77ae"], [0.3, "#f1b6da"], [0.4, "#fde0ef"], [0.5, "#f7f7f7"], [0.6, "#e6f5d0"], [0.7, "#b8e186"], [0.8, "#7fbc41"], [0.9, "#4d9221"], [1, "#276419"]], "sequential": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "sequentialminus": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}, "colorway": ["#636efa", "#EF553B", "#00cc96", "#ab63fa", "#FFA15A", "#19d3f3", "#FF6692", "#B6E880", "#FF97FF", "#FECB52"], "font": {"color": "#2a3f5f"}, "geo": {"bgcolor": "white", "lakecolor": "white", "landcolor": "#E5ECF6", "showlakes": true, "showland": true, "subunitcolor": "white"}, "hoverlabel": {"align": "left"}, "hovermode": "closest", "mapbox": {"style": "light"}, "paper_bgcolor": "white", "plot_bgcolor": "#E5ECF6", "polar": {"angularaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "bgcolor": "#E5ECF6", "radialaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "scene": {"xaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}, "yaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}, "zaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}}, "shapedefaults": {"line": {"color": "#2a3f5f"}}, "ternary": {"aaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "baxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "bgcolor": "#E5ECF6", "caxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "title": {"x": 0.05}, "xaxis": {"automargin": true, "gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "zerolinewidth": 2}, "yaxis": {"automargin": true, "gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "zerolinewidth": 2}}}, "xaxis": {"domain": [0, 1], "range": [-20.0, 13.0], "showgrid": false, "title": {"text": "CpG median log likelihood ratio"}, "zeroline": false}, "yaxis": {"automargin": true, "fixedrange": true, "gridcolor": "lightgrey", "showgrid": true, "zeroline": false}},
+                        {"responsive": true}
+                    )
+                };
+                
+            </script>
+        </div>
+                        <div class="divider"></div>
+                    </div>
+                    <div id="transcript_table" class="column col-11 col-mx-auto">
+                        <h5 style="margin-top: 50px;">Closest transcripts TSS</h5>
+                        <table border="0" class="dataframe table table-striped table-hover table-scroll">
+  <thead>
+    <tr style="text-align: justify-all;">
+      <th>distance to tss</th>
+      <th>transcript id</th>
+      <th>gene id</th>
+      <th>transcript name</th>
+      <th>chromosome</th>
+      <th>start</th>
+      <th>end</th>
+      <th>strand</th>
+      <th>feature type</th>
+      <th>transcript biotype</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>589</td>
+      <td>ensorlt00000011491</td>
+      <td>sorlg00000009158</td>
+      <td>cdkn3-201</td>
+      <td>22</td>
+      <td>1398854</td>
+      <td>1402646</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>9002</td>
+      <td>ensorlt00000011507</td>
+      <td>sorlg00000009172</td>
+      <td>cnih1-201</td>
+      <td>22</td>
+      <td>1403772</td>
+      <td>1407267</td>
+      <td>-</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>13636</td>
+      <td>ensorlt00000040183</td>
+      <td>sorlg00000029174</td>
+      <td>gmfb-202</td>
+      <td>22</td>
+      <td>1409209</td>
+      <td>1411901</td>
+      <td>-</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>14970</td>
+      <td>ensorlt00000011529</td>
+      <td>sorlg00000009189</td>
+      <td>lgals3a-201</td>
+      <td>22</td>
+      <td>1413235</td>
+      <td>1416426</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>15018</td>
+      <td>ensorlt00000043410</td>
+      <td>sorlg00000029174</td>
+      <td>gmfb-201</td>
+      <td>22</td>
+      <td>1409209</td>
+      <td>1413283</td>
+      <td>-</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>15584</td>
+      <td>ensorlt00000040765</td>
+      <td>sorlg00000009189</td>
+      <td>lgals3a-202</td>
+      <td>22</td>
+      <td>1413849</td>
+      <td>1416426</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>21447</td>
+      <td>ensorlt00000026921</td>
+      <td>sorlg00000029340</td>
+      <td><NA></td>
+      <td>22</td>
+      <td>1419712</td>
+      <td>1437507</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>21447</td>
+      <td>ensorlt00000035541</td>
+      <td>sorlg00000029340</td>
+      <td><NA></td>
+      <td>22</td>
+      <td>1419712</td>
+      <td>1432870</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>-35238</td>
+      <td>ensorlt00000011460</td>
+      <td>sorlg00000009137</td>
+      <td>sos2-201</td>
+      <td>22</td>
+      <td>1362069</td>
+      <td>1389954</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>-41176</td>
+      <td>ensorlt00000011435</td>
+      <td>sorlg00000009117</td>
+      <td>l2hgdh-201</td>
+      <td>22</td>
+      <td>1356131</td>
+      <td>1362063</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>-42629</td>
+      <td>ensorlt00000011420</td>
+      <td>sorlg00000009104</td>
+      <td>dmac2l-201</td>
+      <td>22</td>
+      <td>1351238</td>
+      <td>1354678</td>
+      <td>-</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>43054</td>
+      <td>ensorlt00000011627</td>
+      <td>sorlg00000009268</td>
+      <td>srsf5a-203</td>
+      <td>22</td>
+      <td>1441319</td>
+      <td>1445415</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>43054</td>
+      <td>ensorlt00000011628</td>
+      <td>sorlg00000009268</td>
+      <td>srsf5a-202</td>
+      <td>22</td>
+      <td>1441319</td>
+      <td>1447094</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>43054</td>
+      <td>ensorlt00000011624</td>
+      <td>sorlg00000009268</td>
+      <td>srsf5a-201</td>
+      <td>22</td>
+      <td>1441319</td>
+      <td>1447094</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>49046</td>
+      <td>ensorlt00000027041</td>
+      <td>sorlg00000009340</td>
+      <td>pacs2-202</td>
+      <td>22</td>
+      <td>1447311</td>
+      <td>1495501</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>49046</td>
+      <td>ensorlt00000030542</td>
+      <td>sorlg00000009340</td>
+      <td>pacs2-203</td>
+      <td>22</td>
+      <td>1447311</td>
+      <td>1495501</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>49046</td>
+      <td>ensorlt00000035689</td>
+      <td>sorlg00000009340</td>
+      <td>pacs2-201</td>
+      <td>22</td>
+      <td>1447311</td>
+      <td>1495501</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>49557</td>
+      <td>ensorlt00000011717</td>
+      <td>sorlg00000009340</td>
+      <td>pacs2-204</td>
+      <td>22</td>
+      <td>1447822</td>
+      <td>1491784</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>-52014</td>
+      <td>ensorlt00000027036</td>
+      <td>sorlg00000009092</td>
+      <td>cdkl1-201</td>
+      <td>22</td>
+      <td>1345293</td>
+      <td>1354678</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>-52014</td>
+      <td>ensorlt00000011407</td>
+      <td>sorlg00000009092</td>
+      <td>cdkl1-202</td>
+      <td>22</td>
+      <td>1345293</td>
+      <td>1354678</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>66054</td>
+      <td>ensorlt00000033608</td>
+      <td>sorlg00000009340</td>
+      <td>pacs2-205</td>
+      <td>22</td>
+      <td>1464319</td>
+      <td>1491784</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>71977</td>
+      <td>ensorlt00000043614</td>
+      <td>sorlg00000027914</td>
+      <td>ensorle00000294629</td>
+      <td>22</td>
+      <td>1466493</td>
+      <td>1470242</td>
+      <td>-</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>-74042</td>
+      <td>ensorlt00000038178</td>
+      <td>sorlg00000022884</td>
+      <td>map4k5-203</td>
+      <td>22</td>
+      <td>1323265</td>
+      <td>1344649</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>-74042</td>
+      <td>ensorlt00000032507</td>
+      <td>sorlg00000022884</td>
+      <td>map4k5-202</td>
+      <td>22</td>
+      <td>1323265</td>
+      <td>1344649</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>-74042</td>
+      <td>ensorlt00000044616</td>
+      <td>sorlg00000022884</td>
+      <td>map4k5-201</td>
+      <td>22</td>
+      <td>1323265</td>
+      <td>1344649</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>-76876</td>
+      <td>ensorlt00000011357</td>
+      <td>sorlg00000009054</td>
+      <td>atl1-201</td>
+      <td>22</td>
+      <td>1313733</td>
+      <td>1320431</td>
+      <td>-</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>-90417</td>
+      <td>ensorlt00000047127</td>
+      <td>sorlg00000008998</td>
+      <td>sav1-201</td>
+      <td>22</td>
+      <td>1306890</td>
+      <td>1316920</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+    <tr>
+      <td>-90417</td>
+      <td>ensorlt00000011284</td>
+      <td>sorlg00000008998</td>
+      <td>sav1-202</td>
+      <td>22</td>
+      <td>1306890</td>
+      <td>1312608</td>
+      <td>+</td>
+      <td>mRNA</td>
+      <td>protein_coding</td>
+    </tr>
+  </tbody>
+</table>
+                        <div class="divider"></div>
+                    </div>
+                </div>
+                    <div class="text-left">
+                        <br>
+                        <p>Source file: /hps/research1/birney/users/adrien/analyses/medaka_DNA_promethion/brain_run2/DNA_methylation/results/methylation/pycometh_meth_comp/meth_comp.tsv.gz </p>
+                        <p> MD5 hash: ee45f73a19e16429ce07d1ecfdd4e7e4 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+distance to tss	transcript id	gene id	transcript name	chromosome	start	end	strand	feature type	transcript biotype
+3421	ensorlt00000036746	sorlg00000016183	src-202	7	25221440	25261342	+	mRNA	protein_coding
+3421	ensorlt00000046520	sorlg00000016183	src-201	7	25221440	25261342	+	mRNA	protein_coding
+3421	ensorlt00000046833	sorlg00000016183	src-203	7	25221440	25261342	+	mRNA	protein_coding
+-5570	ensorlt00000020242	sorlg00000016178	kcng1-201	7	25211580	25222347	+	mRNA	protein_coding
+23885	ensorlt00000020251	sorlg00000016183	src-204	7	25241904	25259482	+	mRNA	protein_coding
+47038	ensorlt00000020291	sorlg00000016209	mical1-203	7	25265057	25300436	+	mRNA	protein_coding
+47038	ensorlt00000033684	sorlg00000016209	mical1-202	7	25265057	25300436	+	mRNA	protein_coding
+47038	ensorlt00000039666	sorlg00000016209	mical1-201	7	25265057	25300436	+	mRNA	protein_coding
+88956	ensorlt00000020317	sorlg00000016226	camk1gb-201	7	25306975	25316325	+	mRNA	protein_coding

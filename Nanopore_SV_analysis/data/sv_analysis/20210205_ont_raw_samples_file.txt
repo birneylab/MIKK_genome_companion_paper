@@ -1,0 +1,12 @@
+results/SV/ngmlr_alignments/11-1_A3.bam 11-1
+results/SV/ngmlr_alignments/117-2_C4.bam 117-2
+results/SV/ngmlr_alignments/131-1_F4.bam 131-1
+results/SV/ngmlr_alignments/134-1_H4.bam 134-1
+results/SV/ngmlr_alignments/134-2_A5.bam 134-2
+results/SV/ngmlr_alignments/4-1_B2.bam 4-1
+results/SV/ngmlr_alignments/4-2_C2.bam 4-2
+results/SV/ngmlr_alignments/69-1_F3.bam 69-1
+results/SV/ngmlr_alignments/7-1_E2.bam 7-1
+results/SV/ngmlr_alignments/7-2_F2.bam 7-2
+results/SV/ngmlr_alignments/79-2_G3.bam 79-2
+results/SV/ngmlr_alignments/80-1_H3.bam 80-1
