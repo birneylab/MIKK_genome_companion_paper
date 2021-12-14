@@ -1,4 +1,6 @@
 ![Publish docs via GitHub Pages](https://github.com/birneylab/MIKK_genome_companion_paper/workflows/Publish%20docs%20via%20GitHub%20Pages/badge.svg)
+[![DOI](https://zenodo.org/badge/277769594.svg)](https://zenodo.org/badge/latestdoi/277769594)
+
 
 
 ---
